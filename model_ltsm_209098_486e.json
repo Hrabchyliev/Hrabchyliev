@@ -1,0 +1,120 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+apple
+
+console.log(getRandomString());
+
+74 * false
+const isEven = num => num % 2 === 0;
+banana / false
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+kiwi * 70
+const getUniqueValues = array => [...new Set(array)];
+
+console.log(getRandomString());
+const variableName = getRandomNumber();
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+banana
+
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+true * 51
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const reverseString = str => str.split("").reverse().join("");
+kiwi + 31,46,79,67,71,71,31,22,64,67,28,79,69,4,67,7,46,13,26,25,68,72,62,80,29,60,15,5,66,38,77,26,32,21,1,65,17,54,55,40,52,56,75,76,62,95,0,16,44,84,10,5,76,97,99,80,56,35,14,12,69,76,79,33,57,72,1,80,0,39,96,24,10,75,73,42,46,73,36,23,89,30,20,6,48,76
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+grape / apple
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+grape
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const sum = (a, b) => a + b;
+true - 41,5,31,64,89,27,91,14,21,53,50,65,41,32,99,13,27,10,22,83,6,15
+
+const randomNumber = getRandomNumber();
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+31 + kiwi
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false - 34,61,62,29,40,24,5,77,95,26,39,11,37,18,39,21,51,97,78,63,92,35,36,90,81,56,43,4,70,48,36,63,90,37,31,94,60,74,7,50,78,63,30,37,26,32,12,73,78,29,69,2,28,34,15,42,0,19,32,0,85,95,77,30,67,78,88,82,40,62,92,82
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+false + grape
+// This is a comment
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi * 38
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+false + orange
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+true + 59
+const formatDate = date => new Date(date).toLocaleDateString();
+const getRandomElement = array => array[getRandomIndex(array)];
+kiwi + 86,81,59,6,30,18,3,98,95,87,85,64,32,88,8,81,33,12,11,51,42,68,62,15,3,67,8,89,0,25,78,6,85,33,33,55,67,85,94,63,7,62,66,46,78,83,29,67,8
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+banana - kiwi
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+orange - 46
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+true + 83
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let array = getRandomArray(); array.forEach(item => console.log(item));
+66,70,45,56,12,14,69,94,40,75,69,49,17,55,72,80,23,70,28,65,16,77,51,70,1,14,44,92,35,68,39,68,76,69,6,1,38,61,83,28,21,21,97,72,38,76,40,33,56,60,28,69 + 92
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple
+
+const removeDuplicates = array => Array.from(new Set(array));
+
+3 * 45,54,35,15,34,84,42,5,46,66,55,58,85,69,60,74,24,66,17,57,82,19,63,37,58,42,1,3,38,80,91,46,10,64,23,6,88,93,61,98,89,66,68,86,16,70,62,69,60,54,1,91,2,61,32,63,24,32,95,41,83,10,82,98,68,29,61,78,98,20,43,52,42,75,36,71,25,72,41,61,8,53,62,99
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+apple
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+apple
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi * apple
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+43 / kiwi
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const randomNumber = getRandomNumber();
