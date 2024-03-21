@@ -1,0 +1,46 @@
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+orange
+
+console.log(getRandomString());
+const findSmallestNumber = numbers => Math.min(...numbers);
+const reverseString = str => str.split("").reverse().join("");
+
+function addNumbers(a, b) { return a + b; }
+const randomNumber = getRandomNumber();
+console.log(getRandomString());
+const sum = (a, b) => a + b;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const sum = (a, b) => a + b;
+function addNumbers(a, b) { return a + b; }
+99,62,52,88,54,12,55,56,87,27,37,59,79,31,16,37,80,57,75,71,7,93,38,9,21,63,37,51,63,61,17,21,70,80,5,44,6,13,77,53,98,15,41,79,18,95,40,18,20,94,86 + kiwi
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+17 / true
+
+const greet = name => `Hello, ${name}!`;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+65,79,30,52,9,27,73,89,95,83,36,16,50,0,2,52,19,36,65,10,44,73,91,13,75,94,64,65,69,49,16,99,87,85,63,76,24,10,53,91,11,71,8,70,58,98,24,98,89,98,79,85,10,61,76,44,76,79,83,48,1,12,36,68,73,32,98,25,71,91,0,37,56 / 46
+const greet = name => `Hello, ${name}!`;
+class MyClass { constructor() { this.property = getRandomString(); } }
+console.log(getRandomString());
+const isPalindrome = str => str === str.split("").reverse().join("");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findLargestNumber = numbers => Math.max(...numbers);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+false - apple
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
