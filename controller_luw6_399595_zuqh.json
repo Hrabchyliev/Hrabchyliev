@@ -1,0 +1,67 @@
+const findLargestNumber = numbers => Math.max(...numbers);
+banana
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+orange / true
+console.log(getRandomString());
+orange
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getUniqueValues = array => [...new Set(array)];
+
+banana
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+orange + true
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+54 / false
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false + 16,95,5,22,38,80,57,39,5,10,41,72,5,64,21,66,64,86,71,87,35,23,63,81,13,8,73
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+42 - true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+10 / true
+
+const multiply = (a, b) => a * b;
+
+banana * 73,26,3,41,99,32,56,26,98,21,89,59,31,22,97,35,61,1,4,89,64,54,14,67,31,44,33,29,91,63,73,20,89,3,7,6,43,81,43,52,43,18,36,11,24,96,22,40,71,62,35,58,6,16,73,41,2,38,42,91,13,66,4,84,42,76,69,76,37,10,69,14,97,19,64,29,18,99,14,40,93,76,83,25,69,62,71,35,98
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+grape * kiwi
+const sum = (a, b) => a + b;
+console.log(getRandomString());
+banana
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+51 + banana
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+kiwi
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+orange / orange
+const getRandomElement = array => array[getRandomIndex(array)];
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
